@@ -1,0 +1,16 @@
+flask
+flask-cors
+scikit-learn==1.5.2
+xgboost
+pandas
+numpy
+nltk
+textstat
+wordfreq
+joblib
+spacy
+transformers
+torch
+sentencepiece
+protobuf
+accelerate

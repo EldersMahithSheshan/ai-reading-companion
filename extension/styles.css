@@ -1,0 +1,29 @@
+/* Clean Red Underline Style */
+.cwi-highlight {
+    background-color: transparent; /* Removes yellow box */
+    border-bottom: 2px solid red;  /* Straight red line */
+    cursor: help;
+    transition: background-color 0.2s;
+}
+
+/* Optional: Slight hover effect so user knows it's clickable */
+.cwi-highlight:hover {
+    background-color: rgba(255, 0, 0, 0.1); 
+}
+
+/* Tooltip Styling */
+.ai-reading-tooltip {
+    position: absolute;
+    display: none;
+    background: #1a1a1a; /* Dark background */
+    color: #ffffff;      /* White text */
+    padding: 12px;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    z-index: 2147483647; /* Maximum Z-index to stay on top */
+    max-width: 320px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.3);
+    border: 1px solid #333;
+}

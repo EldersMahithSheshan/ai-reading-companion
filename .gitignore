@@ -1,0 +1,13 @@
+# Python & Flask
+__pycache__/
+*.pyc
+venv/
+.env
+
+# AI Models & Large Datasets
+*.bin
+*.pt
+*.h5
+*.csv
+*.pkl
+models/
